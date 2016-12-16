@@ -1,0 +1,142 @@
+body{
+	background-color: rgba(205, 220, 57, 0.67);
+}
+.navbar-default{
+	background-color: #edeb04;
+	
+}
+.head-img-left{float:left;}
+.head{
+	font-family: 'Libre Baskerville';
+	text-align: center;
+	color: #C30000;
+}
+.navbar-nav>li>a{
+	font-family: 'Libre Baskerville';
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li.active>a,.wlcm{
+	color: #C30000;
+	font-weight: bold;
+}
+.address,.panchang{
+	font-weight: bold;
+	color: #C30000;
+}
+.main-content, .main-left, .main-right{
+	border: 10px solid transparent;
+	border-image: url('../images/img-thing.jpg')20% round;
+}
+.wlcm-msg{
+	color: #C30000;
+}
+.wlcm-link{
+	color: #c30000;
+	text-decoration: none !important;
+}
+.wlcm-img{
+	float: right;
+	margin-top: -70px;
+}
+.wlcm-sec{
+	margin: 10px;
+	border: 3px solid rgba(237, 127, 4, 0.72);
+	padding: 20px;
+	border-radius: 5px;
+}
+#myCarousel, .tabs-section{
+	margin: 10px;
+	border: 3px solid rgba(237, 127, 4, 0.72);
+	border-radius: 5px;
+}
+.car-image>img{
+	width: 100%;
+	height: 400px;
+}
+.carousel-caption>h6{
+	font-family: 'Libre Baskerville';
+	color: #edeb04;
+	font-size: 30px;
+	font-weight: bold;
+}
+.carousel-caption>a{
+	text-decoration: none;
+	font-family: 'Libre Baskerville';
+	color: #edeb04;
+	font-size: 12px;
+	font-weight: bold;
+}
+.main-left, .main-right{
+	background-color: rgba(237, 127, 4, 0.72);
+	border-radius: 5px;
+}
+.sides{
+	background-color: #F2F27F;
+	border-radius: 5px;
+	margin: 2px;
+	padding: 5px;
+	width: 100%;
+text-align: center;	
+}
+.sides>ul>li{
+	list-style: none;
+}
+.sides>ul{
+	padding-left: 10px;
+}
+.sides>ul>li>a{
+	text-decoration: none;
+	color: blue;
+	font-size: 12px;
+}
+iframe>#document>body{
+	font-size: 1.2em;
+}
+.tabs-section{
+	padding: 2px;
+}
+.tabs-section>ul>li>a{
+	background-color: #C30000;
+	color: white;
+}
+.tabs-section>ul>li.active>a{
+	background-color: rgba(237, 127, 4, 0.72) !important;
+	color: black;
+}
+.tabs-section>ul>li>a:hover{
+	background-color: rgba(237, 127, 4, 0.72) !important;
+	color: black;
+}
+#announce{
+	text-align: center;
+	font-weight: bold;
+}
+.rental-msg{
+	color: blue;
+	font-size: 12px;
+}
+span#email-1{
+	color: blue;
+	font-size: 11px;
+}
+footer{
+	margin: 60px;
+}
+.footer-sec{
+	height: 150px;
+	border: 1px solid white;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	background-color: rgba(237, 127, 4, 0.72);
+}
+.footer-sec-head{
+	background-color: #C30000;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+}
+.main-body{
+	height: 600px;
+}

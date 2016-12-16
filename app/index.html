@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Shiv Durga Temple</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="styles/bootstrap.min.css">
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body ng-app="templeApp">
+		<div class="container-fluid">
+			<h1 class="head"><b>Shiv Durga Temple</b></h1>
+			<h5 class="head"><b>1170 Kern Ave, Sunnyvale, CA 94085 Ph:(408) 480-5477</b></h5>
+			<img src="images/arch7.jpg" style="margin: auto; width: 60%; height: 80px; display:block" alt="temple arch">
+			<header>
+				<div class="navbar navbar-default" role="navigation">
+					<div class="container main">
+						<div class="navbar-header">
+							
+							<a class="navbar-brand" href="#/"><img style="max-width:100px; margin-top: -15px;" class="img-responsove" src="images/shiv-durga-logo.png" alt="Shiv Durga Logo"></a>
+						</div>
+						<div class="collapse navbar-collapse" id="js-navbar-collapse">
+							<ul class="nav navbar-nav">
+								<li class="active"><a href="#/">Home</a></li>
+								<li><a ui-sref="events">Events</a></li>
+								<li><a ui-sref="booking">Pooja Bookings</a></li>
+								<li><a ui-sref="sponsor">Sponsor</a></li>
+								<li><a ui-sref="youth">Youth Education</a></li>
+								<li><a ui-sref="calendar">Hindu Calendar</a></li>
+								<li><a ui-sref="photos">Photo Albums</a></li>
+								<li><a ui-sref="contact">Contact Us</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main>
+				<div class="container">
+					<div class="row">
+						<div class="main-left col-md-2">
+							<div class="sides panchang">
+								<h5><b>Today's Panchang</b></h5>
+								<hr>
+								<iframe name='iframe1' id='iframe1' src="http://www.mypanchang.com/mobilewidget.php?cityname=Sunnyvale-CA&color=452603" scrolling="yes" style="width: 100%;" frameborder="0" " allowTransparency="true"></iframe>
+								<a href="#">More Here...</a>
+							</div>
+							<div class="sides planet">
+								<h5><b>Planetary Positions</b></h5>
+								<hr>
+								<a href="#"><button type="button" class="btn btn-warning">Click Here</button></a>
+								<!--<iframe name='iframe3' id='iframe3' src="http://www.mypanchang.com/jatakam/currentpos.php" scrolling="no" width="350px" height="350px" frameborder="0" style="border:none;" allowTransparency="true"></iframe>-->
+								<!--Jatakam<iframe name='iframe4' id='iframe4' src="http://www.mypanchang.com/jatakam/kundliwidget.php" scrolling="no" width="360px" height="250px" frameborder="0" style="border:none;" allowTransparency="true"></iframe>-->
+							</div>
+							<div class="sides Announcements">
+								<h5><b>Announcements</b></h5>
+								<hr>
+								<ul>
+								<li><a href="#">Ram Katha...</a></li>
+								<li><a href="#">Sundar Kand Path...</a></li>
+								<li><a href="#">Satya Narayan Katha...</a></li>
+								<li><a href="#"><b>...</b></a></li>
+								</ul>
+							</div>
+							<div class="sides download">
+								<h5><b>Download Temple Mobile App</b></h5>
+								<hr>
+								<p class="rental-msg">Now you can download the temple Mobile App</br>
+									Please download here.
+									<a href="http://onelink.to/shivdurga"><button type="button" class="btn btn-warning">Download</button></a>
+								</p>
+							</div>
+						</div>
+						<div class="col-md-8 main-content" ui-view></div>
+						<div class="main-right col-md-2">
+							<div class="sides address">
+								<p>Temple Timings</p>
+								<hr>
+								<p>10:00AM to 8:30PM</p>
+							</div>
+							<div class="sides followus">
+								<a href="https://www.facebook.com/Shiv-Durga-Temple-of-Bay-Area-491705457539991/"><img src="images/FB-FindUsonFacebook-online-114.png"></a>
+							</div>
+							<div class="sides news">
+								<h5><b>Newsletters</b></h5>
+								<hr>
+								<ul>
+								<li><a href="#">Blood Drive...</a></li>
+								<li><a href="#">4th Anniversary...</a></li>
+								<li><a href="#">Sri Ram Katha...</a></li>
+								<li><a href="#">Krishnapriya...</a></li>
+								</ul>
+							</div>
+							<div class="sides rental">
+								<h5><b>Facilities Available for Rental</b></h5>
+								<hr>
+								<p class="rental-msg">Temple Premises are now available for your religious, social & Business events.
+								</p>
+								<button type="button" class="btn btn-warning">Contact Here</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+			<!--<main ui-view></main>-->
+			<footer>
+				<div class="container-fluid">
+					<div class="row">
+						<div class="footer-sec col-md-3">
+							<span class="footer-sec-head">Donations</span><br><br>
+							<span class="footer-sec-msg">Tax Exemption under IRS:<br> 501(c)(3) : 45-5363994</span><br>
+							<button type="button" class="btn btn-primary">Donate Here</button>
+						</div>
+						<div class="footer-ext col-md-1"></div>
+						<div class="footer-sec col-md-3">
+							<span class="footer-sec-head">Join Mailing List</span><br><br>
+							<span class="footer-sec-msg">
+								<input type="text" placeholder="Enter Your Email ID"><br><br>
+								<button type="button" class="btn btn-primary">Join Now</button>
+							</span>
+						</div>
+						<div class="footer-ext col-md-1"></div>
+						<div class="footer-sec col-md-3">
+							<span class="footer-sec-head">Stay Connected on Facebook</span><br><br><br>
+							<span class="footer-sec-msg">
+								<a href="https://www.facebook.com/Shiv-Durga-Temple-of-Bay-Area-491705457539991/"><img width="130px" height="60px" src="https://fourtencreative.com/wp-content/uploads/findus-fb.png" ></a>
+							</span>
+						</div>
+						<div class="footer-ext col-md-1"></div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="scripts/jquery.min.js"></script>
+		<script src="scripts/bootstrap.min.js"></script>
+		<script src="scripts/angular.js"></script>
+		<script src="scripts/angular-ui-router.js"></script>
+		<script src="scripts/app.js"></script>
+		<script src="scripts/home.js"></script>
+		<script src="scripts/events.js"></script>
+	</body>
+</html>
